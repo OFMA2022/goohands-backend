@@ -13,9 +13,6 @@ app.use(express.json());
 //las rutas que empiecen por /api/ se dirigirán a institutionRouter
 app.use("/api/getAll/institutions/", institutionsRouter);
 app.use("/api/getOne/", institutionSlugRouter);
-app.get("/", (req, res) => {
-  res.send("IM TOO F*** GOOT");
-});
 //arranque del servidor
 const port = 3001;
 app.listen(port, () => console.log(`App listening on port ${port}!`));
