@@ -1,7 +1,7 @@
 export default {
   username: "root",
-  password: "iCoQhNF723HJrV-xIvqrqV9EBXXJviQ6",
+  password: "",
   database: "goodhands",
-  host: "z6140b8b2-mysql.z897bb54d.blockdev.sh",
+  host: "127.10.0.1",
   dialect: "mysql",
 };
